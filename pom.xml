@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.example</groupId>
+  <artifactId>design-pattern-23</artifactId>
+  <packaging>pom</packaging>
+  <version>0.1.0</version>
+  <modules>
+    <module>simple-factory</module>
+    <module>factory-method</module>
+    <module>abstract-factory</module>
+    <module>factory-application</module>
+    <module>singleton</module>
+    <module>prototype</module>
+    <module>builder</module>
+    <module>decorator</module>
+    <module>strategy</module>
+    <module>observer</module>
+    <module>flyweight</module>
+    <module>proxy</module>
+    <module>facade</module>
+    <module>composite</module>
+    <module>bridge</module>
+    <module>adapter</module>
+    <module>interpreter</module>
+    <module>mediator</module>
+    <module>chain</module>
+    <module>iterator</module>
+    <module>template-method</module>
+    <module>memento</module>
+    <module>state</module>
+    <module>command</module>
+    <module>visitor</module>
+  </modules>
+
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+
+</project>
